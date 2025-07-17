@@ -9,7 +9,7 @@ public class Merged{
             return;
         }//1
         
-        int mid = si + (ei-si)/2 ;    // starting idx =0 thi thya ane ending idx e totatl length karata acho hoy cha balance karva mate
+        int mid = si + (ei-si)/2 ;    //  make the time complexity Efficient and  space complexity 
         divide(arr, si, mid);
         divide(arr, mid+1 ,ei);
         conquer(arr, si,mid, ei);
